@@ -3,7 +3,7 @@ package service
 import "github.com/vinigracindo/tdd-golang/ports/domain"
 
 type ClientServiceInterface interface {
-	Get(name string) (domain.Client, error)
+	Get(name string) (domain.ClientInterface, error)
 }
 
 type ClientService struct {

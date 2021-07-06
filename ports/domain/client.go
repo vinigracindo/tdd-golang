@@ -3,7 +3,7 @@ package domain
 import "github.com/asaskevich/govalidator"
 
 type ClientInterface interface {
-	isValid() (bool, error)
+	IsValid() (bool, error)
 }
 
 type ClientRepository interface {
