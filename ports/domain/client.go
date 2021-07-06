@@ -7,7 +7,7 @@ type ClientInterface interface {
 }
 
 type ClientRepository interface {
-	GetAll() ([]ClientInterface, error)
+	Get(name string) (ClientInterface, error)
 }
 
 type Client struct {
